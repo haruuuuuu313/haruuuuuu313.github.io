@@ -1,0 +1,211 @@
+@charset "utf-8";
+body {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: #4a4a4a;
+    background-color: #f7f5f0; 
+}
+
+p {
+    font-size: 90%;
+    line-height: 1.3;
+}
+
+h1 {
+    font-size: 180%;
+}
+
+h2 {
+    color: #6b705c; 
+    font-size: 120%;
+    border-bottom: 1px dashed #6b705c;
+    border-left: 6px solid #6b705c;
+    padding-left: 7px;
+}
+
+ footer {
+    text-align: center;
+    background-color: #6b705c;
+    color: #f7f5f0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+article {
+    position: relative;
+clear: both;
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.catch{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: #ffffff;
+    text-shadow: 0px 5px 10px #000;
+    background-color: rgba(0,0,0,0.2);
+}
+
+   
+header {
+    background-color: #6b705c;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.8;
+    font-size: 90%;
+}
+
+ul time {
+    border-radius: 10px;
+    font-size: 90%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+nav ul {
+    font-weight: bold;
+    text-align: right;
+    padding-top: 26px;
+    padding-bottom: 16px;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 12px;
+    border-right: 1px solid #ffffff;
+}
+
+header img {
+    float: left;
+}
+
+.header-in {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub-h1 {
+    background: linear-gradient(to left,#ffffff,#dcdcdc);
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-left: 15px solid #6b705c;
+}
+
+.point-list {
+    list-style-image: url(../image/list.gif);
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.point-img {
+    box-shadow: 0px 0px 10px 3px #aaaaaa;
+    border-radius: 10px;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.sentou {
+    clear: both;
+    text-align: right;
+}
+
+ol li{
+display: inline;
+margin-right: 5px;
+font-size: 80%;
+}
+
+ol {
+    padding-left: 0;
+}
+
+.page {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.dummy {
+    margin: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+nav ul a:link {
+	color: #ffffff;
+ }
+
+ nav ul a:visited {
+	color: #00465C;
+ }
+
+nav ul a:hover {
+	color: #5c0000;
+ }
+
+ nav ul a:active {
+	color: #5c5300;
+ }
+
+/* 959以下の場合 */
+@media (max-width: 959px){
+    header img {
+        float: none;
+    }
+
+    nav ul {
+        text-align: left;
+        padding: 0;
+        margin-left: 10px;
+    }
+
+    article {
+        width: auto;
+    }
+
+    article img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .header-in {
+        width: auto;
+    }
+}
+
+/* 600px以下の場合 */
+@media(max-width:600px) {
+    nav li {
+        font-size: 75%;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    footer {
+        font-size: 75%;
+
+    }
+
+    .catch {
+        top: 5px;
+        left: 10px;
+    }
+
+    .point-img {
+        float: none;
+    }
+}
